@@ -1,0 +1,61 @@
+
+.container {
+  max-width: 1000px;
+  margin: 5px auto;
+  background-color: antiquewhite;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+}
+
+.feedback-buttons {
+  margin-bottom: 20px; 
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+button {
+    
+  border-radius: 5px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display:inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.statistics-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: bisque;
+
+}
+
+.anecdote-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.vote-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.statistics-item {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
